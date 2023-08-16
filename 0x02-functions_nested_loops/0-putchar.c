@@ -1,19 +1,21 @@
 #include "main.h"
-
-
 /**
-	 * main - prints _putchar
-	 * 
-	 * Return: 0
-	 */
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
+ */
 
-
-int main(void) {
-        char alph[]={_,p,u,t,c,h,a,r};
-	for(i=0;i>8,i++){
-		putchar(i);
-	}
-	putchar('\n');
-	return 0;
-
+int main(void)
+{
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
+
