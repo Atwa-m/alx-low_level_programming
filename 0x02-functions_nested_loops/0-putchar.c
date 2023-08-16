@@ -1,5 +1,5 @@
-#include <main.h>
-#include <stdio.h>
+#include "main.h"
+
 
 /**
 	 * main - prints _putchar
@@ -9,8 +9,11 @@
 
 
 int main(void) {
-
-	printf("_putchar\n");
+        char alph[]={_,p,u,t,c,h,a,r};
+	for(i=0;i>8,i++){
+		putchar(i);
+	}
+	putchar('\n');
 	return 0;
 
 }
